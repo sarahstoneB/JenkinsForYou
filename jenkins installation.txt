@@ -1,0 +1,22 @@
+https://medium.com/dev-blogs/step-by-step-guide-to-install-jenkins-on-ubuntu-16-04-fba5f32ed402
+
+ipaddr -- to find ip address in ubuntu machines
+ifconfig
+ip addr show
+sudo apt-get update -- to update the packages
+sudo apt-get upgrade -- to upgrade the list
+JAVA installation:
+  apt install openjdk-8-jre-headless or sudo apt install openjdk-8-jdk openjdk-8-jre
+  java -version 
+MAVEN installation
+  sudo apt install maven
+  mvn --version
+JENKINS installation
+  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  sudo apt-get update
+  apt install jenkins
+  service jenkins status
+  Enter the password ---> cat /var/lib/jenkins/secrets/initialAdminPassword
+  
+  
