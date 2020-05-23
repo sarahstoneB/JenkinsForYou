@@ -1,0 +1,6 @@
+ 1.Jenkins is a self contained, open source automation server which can be used to automate all sorts of tasks such as build,testing & deploying software.
+ 2.jenkins can be installed through native system in packages, docker or even standalone by any machine with java runtime environment installed.
+ 
+ Is jenkins is like TFS?
+ Well yes, jenkins is an automation tool 
+ 
