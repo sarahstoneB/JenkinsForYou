@@ -18,5 +18,11 @@ JENKINS installation
   apt install jenkins
   service jenkins status
   Enter the password ---> cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Uninstall jenkins
+sudo apt-get remove jenkins
+sudo apt-get remove --auto-remove jenkins
+
+
   
   
